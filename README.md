@@ -13,3 +13,7 @@
 ## Useful Links
 - [Foundry Documentation](https://example.com/foundry-docs)
 - [OpenZeppelin Documentation](https://docs.openzeppelin.com)
+
+## Setup
+1. `forge init` this will download and initialize foundry.
+2. `forge install openzeppelin/openzeppelin-contracts` this will download and install openzeppelin.
