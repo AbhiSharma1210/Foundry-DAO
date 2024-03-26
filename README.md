@@ -4,7 +4,6 @@
 1. A contract controlled by a DAO.
 2. Every transaction that the DAO wants to send has to be voted on.
 3. Used ERC20 token for voting (Bad model, research required for better models).
-4. Most of the DAOs like Aave currently use this model.
 
 ## Requirements
 1. Foundry `forge init`

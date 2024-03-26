@@ -92,7 +92,7 @@ contract MyGovernorTest is Test {
         vm.warp(block.timestamp + VOTING_PERIOD + 1);
         vm.roll(block.number + VOTING_PERIOD + 1);
 
-        // 3. Quere the Trx
+        // 3. Queue the Trx
         // Looking in the openzeppelin queue function
         bytes32 descriptionHash = keccak256(abi.encodePacked(description));
         governor.queue(targets, values, calldatas, descriptionHash);
